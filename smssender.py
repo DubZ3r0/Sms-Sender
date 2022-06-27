@@ -18,15 +18,15 @@ except ImportError:
     from twilio.rest import Client
 system = platform.uname()[0]
 Run_Err = "\nPlease, Run This Programm on Linux, Windows or MacOS!\n"
-banner = Fore.LIGHTGREEN_EX + """
-          ________  
-      (( /========\
-      __/__________\____________n_
-  (( /              \_____________] """ + Fore.RED + " [*] " + Fore.GREEN + "Version: " + Fore.YELLOW + "1.3.1" + Fore.LIGHTGREEN_EX + """
-    /  =(*)=          \
-    |_._._._._._._._._.|         !
-(( / __________________ \       =o
-  | OOOOOOOOOOOOOOOOOOO0 |   = \n""" + End
+#banner = Fore.LIGHTGREEN_EX + """
+ #         ________  
+#      (( /========\
+#      __/__________\____________n_
+#  (( /              \_____________] """ + Fore.RED + " [*] " + Fore.GREEN + "Version: " + Fore.YELLOW + "1.3.1" + Fore.LIGHTGREEN_EX + """
+#    /  =(*)=          \
+#    |_._._._._._._._._.|         !
+#(( / __________________ \       =o
+#  | OOOOOOOOOOOOOOOOOOO0 |   = \n""" + End
 def title():
     if system == 'Linux':
         os.system("printf '\033]2;Sms-Sender\a'")
